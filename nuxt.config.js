@@ -18,9 +18,18 @@ module.exports = {
   */
   loading: { color: '#3B8070' },
   /*
+  ** Plugins
+  */
+  plugins:['~plugins/element-ui.js'],
+  /*
+  ** CSS
+  */
+  css:['element-ui/lib/theme-chalk/index.css'],
+  /*
   ** Build configuration
   */
   build: {
+    vendor: ['element-ui'],
     /*
     ** Run ESLint on save
     */
