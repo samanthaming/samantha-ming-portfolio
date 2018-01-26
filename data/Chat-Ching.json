@@ -1,0 +1,10 @@
+{
+  "dialog": false,
+  "id": "ChatChing",
+  "title": "Chat Ching",
+  "description": "hello there",
+  "tagline": "I'm the tagline",
+  "cover": "ChatChingLogo.png",
+  "techLogos": ["meteor.png", "materialize.png", "js.jpg", "html5.png", "css3.svg"],
+  "techStack": ["meteor", "materialize"]
+}

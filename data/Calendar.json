@@ -1,0 +1,10 @@
+{
+  "dialog": false,
+  "id": "Calendar",
+  "title": "Calendar",
+  "description": "hello there",
+  "tagline": "I'm the tagline",
+  "cover": "CalendarLogo.png",
+  "techLogos": ["js.jpg", "html5.png", "css3.svg"],
+  "techStack": ["html", "css", "javascript"]
+}
