@@ -41,6 +41,10 @@
     {
       "image": "visual-studio.svg",
       "name": "Visual Studio Code"
+    },
+    {
+      "image": "heroku.png",
+      "name": "Heroku"
     }
   ]
 }
