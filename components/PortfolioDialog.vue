@@ -28,7 +28,9 @@
       <h5 class="portfolio-technologies-title">Technologies and Tools:</h5>
       <ul class="portfolio-technologies">
         <li v-for="(tech, index) in portfolio.technologies" :key="index">
-          <img :src="`images/icons/${tech.image}`" :alt="tech.name">
+          <el-tooltip :content="tech.name" placement="bottom">
+            <img :src="`images/icons/${tech.image}`" :alt="tech.name">
+          </el-tooltip>
         </li>
       </ul>
     </div>
@@ -44,8 +46,6 @@
 <style lang="scss" scoped>
   #portfolio-dialog {
     text-align: center;
-    // background: #E7FFC0;
-
   }
 
   .portfolio-title {

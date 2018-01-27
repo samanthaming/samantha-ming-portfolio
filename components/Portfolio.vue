@@ -100,6 +100,11 @@
   .el-dialog .dialog-footer button {
     background: transparent;
     border-color: #888;
+
+    &:hover {
+      color: #000;
+      border-color: #2b2b2b;
+    }
   }
 
   .el-dialog .dialog-title {
