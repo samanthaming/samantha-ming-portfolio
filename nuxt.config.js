@@ -3,15 +3,15 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'samantha-ming',
+    title: 'Samantha Ming | Front End Web Developer',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Nuxt.js project' },
+      { hid: 'description', name: 'description', content: 'Welcome to Samantha Ming\'s portfolio website. Take a look at my side projects or get in touch! '},
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Heebo:400,500,700,800,900' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Heebo:400,700' },
       { rel: 'stylesheet',
       href: 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', crossorigin: 'anonymous', integrity: 'sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN' },{
         rel: 'stylesheet',

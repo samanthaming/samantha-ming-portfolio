@@ -1,7 +1,7 @@
 {
-  "name": "samantha-ming",
+  "name": "samantha-ming-site",
   "version": "1.0.0",
-  "description": "Nuxt.js project",
+  "description": "My Portfolio Site",
   "author": "Samantha Ming <samanthaming.ming@gmail.com>",
   "private": true,
   "scripts": {
