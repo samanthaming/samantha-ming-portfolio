@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div id="portfolio">
     <el-row :gutter="10">
 
-      <el-col :span="24" :sm="{span: 12}" :md="{span: 8}" v-for="(portfolio, index) in portfolios" :key="index">
+      <el-col :span="24" :sm="{span: 12}" :md="{span: 12}" :lg="{span: 6}" v-for="(portfolio, index) in portfolios" :key="index">
         <el-card :body-style="{ padding: '0px' }">
           <a @click.prevent="portfolio.dialog = true" class="portfolio-link">
             <div class="portfolio-hover">
@@ -14,11 +14,12 @@
             <h3 class="portfolio-title">{{ portfolio.title }}</h3>
             <p class="portfolio-subtitle">Web Application</p>
             <div class="bottom clearfix">
-              <el-dialog title="Warning" :visible.sync="portfolio.dialog" fullscreen close-on-press-escape>
-                <span>{{ portfolio.description }}</span>
-                <span slot="footer" class="dialog-footer">
-                    <el-button @click="portfolio.dialog = false">Cancel</el-button>
-                  </span>
+              <el-dialog :visible.sync="portfolio.dialog" fullscreen close-on-press-escape center>
+                <div slot="title" class="dialog-title">Samantha Ming</div>
+                <PortfolioDialog :portfolio="portfolio"></PortfolioDialog>
+                <div slot="footer" class="dialog-footer">
+                  <el-button @click="portfolio.dialog = false">Close</el-button>
+                </div>
               </el-dialog>
             </div>
           </div>
@@ -29,8 +30,13 @@
 </template>
 
 <script>
+  import PortfolioDialog from './PortfolioDialog.vue';
   import portfolios from '~/data/index.js';
+
   export default {
+    components: {
+      PortfolioDialog
+    },
     data() {
       return {
         portfolios,
@@ -49,6 +55,20 @@
   .el-card {
     width: 300px;
     border: none;
+  }
+
+  #portfolio .el-dialog {
+    background: #D0ECE6 !important;
+  }
+
+  .el-dialog .dialog-footer button {
+    background: transparent;
+    border-color: #888;
+  }
+
+  .el-dialog .dialog-title {
+    font-size: 16px;
+    color: #999;
   }
 
   .portfolio-title {
