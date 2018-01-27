@@ -61,6 +61,9 @@
     font-size: 56px;
     text-align: center;
     margin-top: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+
     @media (max-width: 991px) {
       font-size: 46px;
     }

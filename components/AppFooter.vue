@@ -9,7 +9,7 @@
         <a>
           Samantha Ming
         </a>
-        <i class="fa fa-heart"></i>
+        <i class="fa fa-star"></i>
       </span>
     </div>
   </div>
@@ -24,8 +24,8 @@
     text-align: center;
     font-size: 12px;
 
-    .fa-heart {
-      color: #ff207a;
+    .fa {
+      color: #FFCD26;
     }
   }
 </style>

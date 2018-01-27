@@ -6,7 +6,7 @@
   "tagline": "My Portfolio Site",
   "type": "Web Site",
   "cover": "MySiteLogo.png",
-  "source": "https://github.com/samanthaming/samantha-ming",
+  "source": "https://github.com/samanthaming/samantha-ming-site",
   "site": false,
   "date": "Dec 2017",
   "technologies": [
@@ -37,6 +37,10 @@
     {
       "image": "css3.svg",
       "name": "CSS 3"
+    },
+    {
+      "image": "yarn.png",
+      "name": "Yarn Package Manager"
     },
     {
       "image": "visual-studio.svg",

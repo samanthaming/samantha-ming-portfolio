@@ -53,6 +53,7 @@
     color: #222;
     text-transform: uppercase;
     margin-bottom: 10px;
+    line-height: 56px;
   }
 
   .portfolio-tagline {
@@ -71,7 +72,7 @@
 
   .portfolio-description {
     font-size: 18px;
-    width: 500px;
+    max-width: 500px;
     margin: 0 auto;
     color: #444;
   }
