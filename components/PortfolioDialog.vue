@@ -1,7 +1,7 @@
 <template>
   <div id="portfolio-dialog">
-    <h3 class="portfolio-title">{{ portfolio.title }}</h3>
-    <h4 class="portfolio-tagline">{{ portfolio.tagline }}</h4>
+    <h2 class="portfolio-title">{{ portfolio.title }}</h2>
+    <p class="portfolio-tagline">{{ portfolio.tagline }}</p>
 
     <div class="portfolio-image-wrap">
       <img :src="`images/${portfolio.cover}`" :alt="portfolio.title">
@@ -12,12 +12,12 @@
     </div>
 
     <div class="portfolio-link-wrap">
-      <a :href="portfolio.site" target="_blank" rel="noopener">
+      <a v-if="portfolio.site !== false" :href="portfolio.site" target="_blank" rel="noopener" :title="`Visit ${portfolio.title} website`">
         <el-button type="primary">
           <i class="fa fa-globe" aria-hidden="true"></i> Website
         </el-button>
       </a>
-      <a :href="portfolio.source" target="_blank" rel="noopener">
+      <a :href="portfolio.source" target="_blank" rel="noopener" :title="`View ${portfolio.title} source code`">
         <el-button type="primary">
           <i class="fa fa-code" aria-hidden="true"></i> Source Code
         </el-button>
