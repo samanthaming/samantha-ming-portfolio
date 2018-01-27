@@ -5,6 +5,7 @@
   "description": "The official website for the Events Podcast, a show about the tech and business talks at Vancouver events.",
   "tagline": "Listen to the Podcast",
   "cover": "EventsPodcastLogo.png",
+  "type": "Web Site",
   "source": "https://github.com/samanthaming/chat-ching",
   "site": "https://www.eventspodcast.ca",
   "date": "Dec 2015",
