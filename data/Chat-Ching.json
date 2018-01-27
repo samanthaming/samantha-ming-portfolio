@@ -2,9 +2,28 @@
   "dialog": false,
   "id": "ChatChing",
   "title": "Chat Ching",
-  "description": "hello there",
-  "tagline": "I'm the tagline",
+  "description": "Chat Ching is a private web messenging application for sellers of Craigslist to communicate anonymously message potential buyers. This is my final project presented during Demo Day.",
+  "tagline": "Private messenger for Craigslist",
   "cover": "ChatChingLogo.png",
-  "techLogos": ["meteor.png", "materialize.png", "js.jpg", "html5.png", "css3.svg"],
-  "techStack": ["meteor", "materialize"]
+  "site": "https://github.com/samanthaming/chat-ching",
+  "date": "Dec 2015",
+  "url": false,
+  "technologies": [
+    {
+      "image": "meteor.png",
+      "name": "Meteor JS"
+    },
+    {
+      "image": "js.jpg",
+      "name": "JavaScript"
+    },
+    {
+      "image": "html5.png",
+      "name": "HTML 5"
+    },
+    {
+      "image": "css3.svg",
+      "name": "CSS 3"
+    }
+  ]
 }

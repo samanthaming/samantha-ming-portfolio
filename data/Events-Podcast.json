@@ -2,9 +2,28 @@
   "dialog": false,
   "id": "EventsPodcast",
   "title": "Events Podcast",
-  "description": "A talk",
-  "tagline": "Events Podcast Tagline",
+  "description": "The official website for the Events Podcast, a show about the tech and business talks at Vancouver events.",
+  "tagline": "Listen to the Podcast",
   "cover": "EventsPodcastLogo.png",
-  "techLogos": ["react.png", "bootstrap.png", "js.jpg", "html5.png", "css3.svg"],
-  "techStack": ["react", "gatsby", "sass"]
+  "source": "https://github.com/samanthaming/chat-ching",
+  "site": "https://www.eventspodcast.ca",
+  "date": "Dec 2015",
+  "technologies": [
+    {
+      "image": "meteor.png",
+      "name": "Meteor JS"
+    },
+    {
+      "image": "js.jpg",
+      "name": "JavaScript"
+    },
+    {
+      "image": "html5.png",
+      "name": "HTML 5"
+    },
+    {
+      "image": "css3.svg",
+      "name": "CSS 3"
+    }
+  ]
 }

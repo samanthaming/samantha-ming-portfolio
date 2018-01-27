@@ -1,0 +1,29 @@
+{
+  "dialog": false,
+  "id": "MySite",
+  "title": "My Website",
+  "description": "Welcome to Samantha Ming's offical portfolio website. This is where I post all of the interesting side projects I've been working on. My specialty is in front end web development. Wondering how I can bring my skillset to your company, contact me.",
+  "tagline": "Samantha Ming's Portfolio Site",
+  "cover": "CalendarLogo.png",
+  "source": "https://github.com/samanthaming/samantha-ming",
+  "site": "http://samanthaming.github.io/calendar/",
+  "date": "DEC 2017",
+  "technologies": [
+    {
+      "image": "meteor.png",
+      "name": "Meteor JS"
+    },
+    {
+      "image": "js.jpg",
+      "name": "JavaScript"
+    },
+    {
+      "image": "html5.png",
+      "name": "HTML 5"
+    },
+    {
+      "image": "css3.svg",
+      "name": "CSS 3"
+    }
+  ]
+}

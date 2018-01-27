@@ -2,9 +2,28 @@
   "dialog": false,
   "id": "Calendar",
   "title": "Calendar",
-  "description": "hello there",
-  "tagline": "I'm the tagline",
+  "description": "This is my 24 hour take home challenge. The task was to create a monthly calendar web application that allows the user to add and remove events from it. The requirements were to build this without any server-side code and to utilize the Yahoo Weather API.",
+  "tagline": "Front End Web Calendar",
   "cover": "CalendarLogo.png",
-  "techLogos": ["js.jpg", "html5.png", "css3.svg"],
-  "techStack": ["html", "css", "javascript"]
+  "source": "https://github.com/samanthaming/chat-ching",
+  "site": "http://samanthaming.github.io/calendar/",
+  "date": "Dec 2015",
+  "technologies": [
+    {
+      "image": "meteor.png",
+      "name": "Meteor JS"
+    },
+    {
+      "image": "js.jpg",
+      "name": "JavaScript"
+    },
+    {
+      "image": "html5.png",
+      "name": "HTML 5"
+    },
+    {
+      "image": "css3.svg",
+      "name": "CSS 3"
+    }
+  ]
 }
