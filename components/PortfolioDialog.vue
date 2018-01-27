@@ -2,9 +2,11 @@
   <div id="portfolio-dialog">
     <h3 class="portfolio-title">{{ portfolio.title }}</h3>
     <h4 class="portfolio-tagline">{{ portfolio.tagline }}</h4>
+
     <div class="portfolio-image-wrap">
       <img :src="`images/${portfolio.cover}`" :alt="portfolio.title">
     </div>
+
     <div class="portfolio-description-wrap">
       <p class="portfolio-description"> {{ portfolio.description }}</p>
     </div>
@@ -20,7 +22,6 @@
           <i class="fa fa-code" aria-hidden="true"></i> Source Code
         </el-button>
       </a>
-
     </div>
 
     <div class="portfolio-technologies-wrap">
@@ -43,6 +44,8 @@
 <style lang="scss" scoped>
   #portfolio-dialog {
     text-align: center;
+    // background: #E7FFC0;
+
   }
 
   .portfolio-title {
@@ -70,6 +73,7 @@
     font-size: 18px;
     width: 500px;
     margin: 0 auto;
+    color: #444;
   }
 
   .portfolio-link-wrap {
@@ -106,5 +110,6 @@
   .portfolio-technologies-title {
     font-size: 14px;
     margin-bottom: 5px;
+    color: #555;
   }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div id="contact">
     <el-row justify="center">
-      <el-col :span="24" :md="{span: 14, offset: 5}">
+      <el-col :span="24">
         <div class="grid-content"></div>
         <h3 class="title">Don't be shy, say hello!</h3>
         <div class="text">
@@ -17,6 +17,10 @@
               <i :class="`fa fa-${social.name}-square`"></i>
             </a>
           </div>
+        </div>
+        <div class="back-to-top">
+          <a href="#app-header" class="hvr-icon-bob">
+          </a>
         </div>
       </el-col>
     </el-row>
@@ -46,23 +50,45 @@
 </script>
 
 <style lang="scss" scoped>
+  $anchor-hover: #FFCD26;
+
+  #contact {
+    background: #fff;
+    padding: 90px 0 0;
+  }
+
   .title {
     font-size: 56px;
     text-align: center;
+    margin-top: 0;
+    @media (max-width: 991px) {
+      font-size: 46px;
+    }
+    @media (max-width: 767px) {
+      font-size: 40px;
+    }
   }
 
   .text {
     font-size: 50px;
     text-align: center;
+    @media (max-width: 991px) {
+      font-size: 40px;
+    }
+    @media (max-width: 767px) {
+      font-size: 30px;
+    }
 
     a {
       color: #333;
       text-decoration: none;
       padding-bottom: 3px;
       border-bottom: 3px solid #333;
+      transition: all 0.4s ease;
 
       &:hover {
-        color: tomato;
+        color: $anchor-hover;
+        border-color: $anchor-hover;
       }
     }
   }
@@ -78,9 +104,30 @@
       margin-left: 10px;
       font-size: 50px;
       color: #333;
+      transition: all 0.3s ease;
 
       &:hover {
-        color: tomato;
+        color: $anchor-hover;
+      }
+    }
+  }
+
+  .back-to-top {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 60px;
+
+    .hvr-icon-bob {
+      display: inline; //override
+    }
+
+    a {
+      color: #eee;
+      transition: all 0.5s ease;
+
+      &:hover {
+        color: #999;
+
       }
     }
   }
