@@ -4,8 +4,7 @@
 $body-bg-color: #FFB2B2;//#FFDEDC;
 
 html {
-  // font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
-  font-family: 'Heebo', sans-serif;
+  font-family: 'Heebo','Helvetica', 'Arial', sans-serif;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -24,13 +23,13 @@ i.el-icon-close {
 }
 
 #portfolio .el-dialog {
-  background: #b2ecea;
+  background:#fff;
 }
 
 .el-header {
   height: auto !important;
   padding: 0;
-  background: $body-bg-color; //#F6D8D7;
+  background: $body-bg-color;
 }
 .el-main {
   padding: 0;

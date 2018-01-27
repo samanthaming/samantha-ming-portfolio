@@ -11,8 +11,16 @@
   "date": "Dec 2015",
   "technologies": [
     {
-      "image": "meteor.png",
-      "name": "Meteor JS"
+      "image": "react.png",
+      "name": "React"
+    },
+    {
+      "image": "gatsby.png",
+      "name": "GatsbyJS"
+    },
+    {
+      "image": "es6.png",
+      "name": "ECMAScript 6"
     },
     {
       "image": "js.jpg",
@@ -25,6 +33,14 @@
     {
       "image": "css3.svg",
       "name": "CSS 3"
+    },
+    {
+      "image": "bootstrap.png",
+      "name": "Bootstrap"
+    },
+    {
+      "image": "visual-studio.svg",
+      "name": "Visual Studio Code"
     }
   ]
 }

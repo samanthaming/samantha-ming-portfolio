@@ -19,12 +19,20 @@
       "name": "JavaScript"
     },
     {
+      "image": "jquery.gif",
+      "name": "jQuery"
+    },
+    {
       "image": "html5.png",
       "name": "HTML 5"
     },
     {
       "image": "css3.svg",
       "name": "CSS 3"
+    },
+    {
+      "image": "atom.png",
+      "name": "Atom Editor"
     }
   ]
 }

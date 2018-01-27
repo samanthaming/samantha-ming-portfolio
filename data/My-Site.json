@@ -11,8 +11,20 @@
   "date": "Dec 2017",
   "technologies": [
     {
-      "image": "meteor.png",
-      "name": "Meteor JS"
+      "image": "vue.jpg",
+      "name": "Vue.js"
+    },
+    {
+      "image": "nuxt.png",
+      "name": "Nuxt.js"
+    },
+    {
+      "image": "element.png",
+      "name": "Element UI"
+    },
+    {
+      "image": "es6.png",
+      "name": "ECMAScript 6"
     },
     {
       "image": "js.jpg",
@@ -25,6 +37,10 @@
     {
       "image": "css3.svg",
       "name": "CSS 3"
+    },
+    {
+      "image": "visual-studio.svg",
+      "name": "Visual Studio Code"
     }
   ]
 }
