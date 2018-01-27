@@ -2,13 +2,13 @@
   "dialog": false,
   "id": "ChatChing",
   "title": "Chat Ching",
-  "description": "Chat Ching is a private web messenging application for sellers of Craigslist to communicate anonymously message potential buyers. This is my final project presented during Demo Day.",
+  "description": "Chat Ching is a private web messenging application for sellers on Craigslist to communicate and anonymously message potential buyers. This is my final project presented during Demo Day.",
   "tagline": "Private messenger for Craigslist",
   "cover": "ChatChingLogo.png",
   "type": "Web App",
-  "site": "https://github.com/samanthaming/chat-ching",
-  "date": "Dec 2015",
-  "url": false,
+  "source": "https://github.com/samanthaming/chat-ching",
+  "site": false,
+  "date": "Mar 2016",
   "technologies": [
     {
       "image": "meteor.png",

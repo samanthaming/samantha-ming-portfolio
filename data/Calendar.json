@@ -6,9 +6,9 @@
   "tagline": "Front End Web Calendar",
   "cover": "CalendarLogo.png",
   "type": "Web App",
-  "source": "https://github.com/samanthaming/chat-ching",
+  "source": "https://github.com/samanthaming/calendar",
   "site": "http://samanthaming.github.io/calendar/",
-  "date": "Dec 2015",
+  "date": "Apr 2016",
   "technologies": [
     {
       "image": "meteor.png",

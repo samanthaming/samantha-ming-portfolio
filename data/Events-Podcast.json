@@ -4,11 +4,11 @@
   "title": "Events Podcast",
   "description": "The official website for the Events Podcast, a show about the tech and business talks at Vancouver events.",
   "tagline": "Listen to the Podcast",
-  "cover": "EventsPodcastLogo.png",
   "type": "Web Site",
-  "source": "https://github.com/samanthaming/chat-ching",
+  "cover": "EventsPodcastLogo.png",
+  "source": "https://github.com/samanthaming/events-podcast-react-gatsby",
   "site": "https://www.eventspodcast.ca",
-  "date": "Dec 2015",
+  "date": "Nov 2017",
   "technologies": [
     {
       "image": "react.png",
