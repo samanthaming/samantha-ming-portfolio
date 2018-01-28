@@ -9,6 +9,7 @@
           <span v-for="(social,index) in socials" :key="index">
             <a :href="social.url" target="_blank" rel="noopener" :title="`Find me on ${social.name}`">{{ social.name }}</a>
             <span v-if="index !== socials.length - 1">, </span>
+            <span v-if="index == socials.length - 2">or </span>
           </span>
         </div>
         <div class="icons">
@@ -80,6 +81,7 @@
     }
     @media (max-width: 767px) {
       font-size: 30px;
+      line-height: 60px;
     }
 
     a {

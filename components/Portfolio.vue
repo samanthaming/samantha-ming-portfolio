@@ -12,7 +12,7 @@
                 <i class="fa fa-plus-square-o" aria-hidden="true"></i>
                 <div class="portfolio-hover-text">{{ portfolio.title }}</div>
               </div>
-              <img :src="`images/${portfolio.cover}`" class="image">
+              <img :src="`images/${portfolio.cover}`" class="image" :alt="portfolio.title">
             </div>
           </div>
 
@@ -36,7 +36,7 @@
 
 <script>
   import PortfolioDialog from './PortfolioDialog.vue';
-  import portfolios from '~/data/index.js';
+  import portfolios from '~/data/portfolios.js';
 
   export default {
     components: {
@@ -81,6 +81,10 @@
     margin-bottom: 75px;
     display: flex;
     justify-content: center;
+     @media (max-width: 767px) {
+      display: block;
+      padding: 0 !important;
+    }
   }
 
   .portfolio-frame {

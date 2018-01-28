@@ -7,6 +7,7 @@
       <el-main id="main">
         <about/>
         <portfolio/>
+        <tech-stack/>
         <contact/>
       </el-main>
         <app-footer/>
@@ -20,6 +21,7 @@
   import Contact from "~/components/Contact.vue";
   import AppFooter from "~/components/AppFooter.vue";
   import AppHeader from "~/components/AppHeader.vue";
+  import TechStack from "~/components/TechStack.vue";
 
   export default {
     components: {
@@ -28,6 +30,7 @@
       Contact,
       AppFooter,
       AppHeader,
+      TechStack,
     }
   };
 </script>
