@@ -1,0 +1,22 @@
+{
+  "id": "education",
+  "title": "Education",
+  "tech": [
+    {
+      "name": "Ruby",
+      "image": "ruby.png"
+    },
+    {
+      "name": "Rails",
+      "image": "rails.png"
+    },
+    {
+      "name": "PostgreSQL",
+      "image": "postgresql.png"
+    },
+    {
+      "name": "Heroku",
+      "image": "heroku.png"
+    }
+  ]
+}

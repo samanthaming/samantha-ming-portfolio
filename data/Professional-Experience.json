@@ -1,0 +1,38 @@
+{
+  "id": "professionalexperience",
+  "title": "Professional Experience",
+  "tech": [
+    {
+      "name": "C+",
+      "image": "csharp.png"
+    },
+    {
+      "name": "ASP.NET",
+      "image": "aspnet.png"
+    },
+    {
+      "name": "JavaScript",
+      "image": "js.jpg"
+    },
+    {
+      "name": "jQuery",
+      "image": "jquery.gif"
+    },
+    {
+      "name": "Bootstrap",
+      "image": "bootstrap.png"
+    },
+    {
+      "name": "Less",
+      "image": "less.png"
+    },
+    {
+      "name": "HTML 5",
+      "image": "html5.png"
+    },
+    {
+      "name": "CSS 3",
+      "image": "css3.svg"
+    }
+  ]
+}

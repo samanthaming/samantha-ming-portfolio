@@ -1,0 +1,38 @@
+{
+  "id": "experience",
+  "title": "Experience",
+  "tech": [
+    {
+      "name": "ES6",
+      "image": "es6.png"
+    },
+    {
+      "name": "React",
+      "image": "react.png"
+    },
+    {
+      "name": "GatsbyJS",
+      "image": "gatsby.png"
+    },
+    {
+      "name": "Vue.js",
+      "image": "vue.jpg"
+    },
+    {
+      "name": "Nuxt.js",
+      "image": "nuxt.png"
+    },
+    {
+      "name": "Sass",
+      "image": "sass.svg"
+    },
+    {
+      "name": "MeteorJS",
+      "image": "meteor.png"
+    },
+    {
+      "name": "Yarn",
+      "image": "yarn.png"
+    }
+  ]
+}
