@@ -4,7 +4,7 @@
 
       <el-col :span="24" :sm="{span: 12}" :md="{span: 12}" :lg="{span: 12}" v-for="(portfolio, index) in portfolios" :key="index" class="portfolio-col">
         <el-card :body-style="{ padding: '0px' }">
-          <div class="portfolio-frame" @click="portfolio.dialog = true">
+          <div class="portfolio-frame" :id="portfolio.id" @click="portfolio.dialog = true">
             <div class="portfolio-type animated slideInUp">{{ portfolio.type }}</div>
 
             <div class="portfolio-link animated slideInUp">
@@ -60,17 +60,20 @@
   .el-row {
     max-width: 1150px;
     margin: 0 auto !important;
-    .el-col:first-of-type .portfolio-frame {
-      background-color: #8cc0df;
-    }
-    .el-col:nth-of-type(2) .portfolio-frame {
+  }
+
+  .portfolio-frame {
+    &#eventspodcast {
       background-color: #f680a3;
     }
-    .el-col:nth-of-type(3) .portfolio-frame {
-      background-color: #FFCD26;
+    &#chatching {
+      background-color: #8cc0df;
     }
-    .el-col:nth-of-type(4) .portfolio-frame {
+    &#mywebsite {
       background-color: #00C7C2;
+    }
+    &#calendar {
+      background-color: #FFCD26;
     }
   }
 

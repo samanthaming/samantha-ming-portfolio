@@ -7,13 +7,13 @@
         <div class="text">
           Find me on
           <span v-for="(social,index) in socials" :key="index">
-            <a :href="social.url" target="_blank" rel="noopener">{{ social.name }}</a>
+            <a :href="social.url" target="_blank" rel="noopener" :title="`Find me on ${social.name}`">{{ social.name }}</a>
             <span v-if="index !== socials.length - 1">, </span>
           </span>
         </div>
         <div class="icons">
           <div v-for="(social,index) in socials" :key="index">
-            <a :href="social.url" target="_blank" rel="noopener">
+            <a :href="social.url" target="_blank" rel="noopener" :title="`Find me on ${social.name}`">
               <i :class="`fa fa-${social.name}-square`"></i>
             </a>
           </div>

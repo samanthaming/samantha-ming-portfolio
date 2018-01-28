@@ -1,4 +1,4 @@
-# Samantha Ming Website
+# Samantha Ming's Portfolio Site
 
 Welcome to the source code of my portfolio site :wave: I use the website to showcase all the interesting side projects I've been working on. Take a look at my work or get in touch! :sunglasses:
 
