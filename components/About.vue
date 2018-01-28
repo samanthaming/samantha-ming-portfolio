@@ -1,6 +1,6 @@
 <template>
   <div id="about">
-    <el-row justify="center">
+    <el-row>
       <el-col :span="20" :offset="2" :sm="{span: 18, offset: 3}" :md="{span: 14, offset: 5}">
         <div class="about-content animated slideInDown">
           <h1 class="about-title">Hi, I'm <span>Samantha</span>, a Front End Web Developer based in Vancouver</h1>
@@ -20,6 +20,9 @@
     height: 60vh;
     display: flex;
     align-items: center;
+  }
+  .el-row {
+    width: 100%;
   }
   .about-title {
     font-size: 56px;

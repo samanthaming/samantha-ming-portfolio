@@ -45,6 +45,10 @@
     {
       "image": "visual-studio.svg",
       "name": "Visual Studio Code"
+    },
+    {
+      "image": "sketch.png",
+      "name": "Sketch"
     }
   ]
 }

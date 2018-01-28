@@ -33,6 +33,10 @@
     {
       "name": "Yarn",
       "image": "yarn.png"
+    },
+    {
+      "image": "sketch.png",
+      "name": "Sketch"
     }
   ]
 }
