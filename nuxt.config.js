@@ -30,7 +30,7 @@ module.exports = {
   */
   plugins:[
     '~plugins/element-ui.js',
-    { src: '~plugins/ga.js', ssr: false }
+    // { src: '~plugins/ga.js', ssr: false }
   ],
   /*
   ** CSS
