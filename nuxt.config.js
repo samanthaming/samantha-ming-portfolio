@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 module.exports = {
   /*
   ** Headers of the page
@@ -7,7 +9,7 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Welcome to Samantha Ming\'s portfolio website. Take a look at my side projects or get in touch! '},
+      { hid: 'description', name: 'description', content: 'Welcome to Samantha Ming\'s portfolio website. Take a look at my work or get in touch! '},
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -33,6 +35,12 @@ module.exports = {
   css:[
     'element-ui/lib/theme-chalk/index.css',
     '@/assets/css/main.scss'
+  ],
+  /*
+  ** CSS
+  */
+  modules: [
+    ['@nuxtjs/google-analytics', {id: `${process.env.GOOGLE_TRACKING_ID}`}],
   ],
   /*
   ** Build configuration
