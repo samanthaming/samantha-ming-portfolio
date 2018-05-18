@@ -4,6 +4,8 @@ Welcome to the source code of my portfolio site :wave: I use the website to show
 
 This is the official repo built and designed by [Samantha Ming](https://www.linkedin.com/in/samanthaming/)
 
+For my offical site, please visit [www.samanthaming.com](www.samanthaming.com/)
+
 ## Technologies used
 
 - Vue.js
