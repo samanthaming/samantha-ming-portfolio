@@ -2,7 +2,7 @@
 
 Welcome to the source code of my portfolio site :wave: I use the website to showcase all the interesting side projects I've been working on. Take a look at my work or get in touch! :sunglasses:
 
-This is the official repo built and designed by [Samantha Ming](https://www.linkedin.com/in/samanthaming/)
+This site is built and designed by [Samantha Ming](https://www.linkedin.com/in/samanthaming/)
 
 For my offical site, please visit [www.samanthaming.com](https://www.samanthaming.com/)
 

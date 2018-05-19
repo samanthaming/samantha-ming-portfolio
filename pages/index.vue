@@ -1,6 +1,7 @@
 <template>
   <div >
     <el-container>
+      <announcement/>
       <el-header>
         <app-header/>
       </el-header>
@@ -16,6 +17,7 @@
 </template>
 
 <script>
+  import Announcement from "~/components/Announcement.vue";
   import About from "~/components/About.vue";
   import Portfolio from "~/components/Portfolio.vue";
   import Contact from "~/components/Contact.vue";
@@ -25,6 +27,7 @@
 
   export default {
     components: {
+      Announcement,
       About,
       Portfolio,
       Contact,

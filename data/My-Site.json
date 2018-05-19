@@ -1,8 +1,8 @@
 {
   "dialog": false,
   "id": "mywebsite",
-  "title": "My Website",
-  "description": "Welcome to Samantha Ming's offical portfolio website. This is where I post all of the interesting side projects I've been working on. My specialty is in front end web development.",
+  "title": "My Portfolio Site",
+  "description": "Welcome to Samantha Ming's portfolio website. This is where I post all of the interesting side projects I've been working on. My specialty is in front end web development.",
   "tagline": "My Portfolio Site",
   "type": "Web Site",
   "cover": "MySiteLogo.png",

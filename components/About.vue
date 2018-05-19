@@ -17,7 +17,7 @@
 
 <style lang="scss" scoped>
   #about {
-    height: 60vh;
+    min-height: 60vh;
     display: flex;
     align-items: center;
   }
