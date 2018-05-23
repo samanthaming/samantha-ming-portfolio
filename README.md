@@ -4,7 +4,7 @@ Welcome to the source code of my portfolio site :wave: I use the website to show
 
 This site is built and designed by [Samantha Ming](https://www.linkedin.com/in/samanthaming/)
 
-For my offical site, please visit [www.samanthaming.com](https://www.samanthaming.com/)
+For my official site, please visit [www.samanthaming.com](https://www.samanthaming.com/)
 
 ## Technologies used
 
